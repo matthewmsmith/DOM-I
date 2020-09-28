@@ -60,6 +60,14 @@ nav.append('else')
 const ctaHeader = document.querySelector('cta, h1')
 ctaHeader.innerHTML ='DOM <br>IS</br> AWESOME'
 
+nav.style.color = 'green'
+nav.children[0].style.color = 'green'
+nav.children[1].style.color = 'green'
+nav.children[2].style.color = 'green'
+nav.children[3].style.color = 'green'
+nav.children[4].style.color = 'green'
+nav.children[5].style.color = 'green'
+
 const ctaButton = document.querySelector('cta, button')
 ctaButton.textContent = 'Get Started';
 
